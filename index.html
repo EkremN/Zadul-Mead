@@ -7,6 +7,24 @@
         <meta name="description" content="The description should optimally be between 150-160 characters.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="author" content="EkremN">
+
+		<!-- Facebook Pixel Code -->
+		<script>
+			!function(f,b,e,v,n,t,s)
+			{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+			if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+			n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t,s)}(window, document,'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '320846982608931');
+			fbq('track', 'PageView');
+		</script>
+		<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=320846982608931&ev=PageView&noscript=1"
+		/></noscript>
+  <!-- End Facebook Pixel Code -->
 		
 		<!-- Meta description-->
 		<meta name="robots" content="all">
@@ -22,13 +40,43 @@
 		islamskih znanosti Ibn Kajjima el-Dževzijje, u šest tomova B5 formata sa koricama u tvrdom uvezu i najkvalitetnijoj štampi na šamoa papiru, na blizu 3.000 strana.">
 		<meta property="og:locale" content="bs-BA">
 
+		<!-- Global site tag (gtag.js) - Google Ads: 610920812 -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-610920812"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'AW-610920812');
+		</script>
+
+		<!-- Event snippet for Purchase conversion page
+		In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+		<script>
+			function gtag_report_conversion(url) {
+			var callback = function () {
+				if (typeof(url) != 'undefined') {
+				window.location = url;
+				}
+			};
+			gtag('event', 'conversion', {
+				'send_to': 'AW-610920812/0hGBCL_x-dgBEOzSp6MC',
+				'transaction_id': '',
+				'event_callback': callback
+			});
+			return false;
+			}
+		</script>
+	
+
+
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173388384-1"></script>
 		<script>
- 		window.dataLayer = window.dataLayer || [];
-  		function gtag(){dataLayer.push(arguments);}
-  		gtag('js', new Date());
-  		gtag('config', 'UA-173388384-1');
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-173388384-1');
 		</script>
 
 
